@@ -1,0 +1,41 @@
+*{ list-style: none; text-decoration: none; color:inherit;
+ }
+
+li{ margin-bottom: 9px; }
+
+#DelBtn{ 
+    border: none; 
+    background-color: white; 
+    text-align: center;
+    width:35px;
+}
+#DelBtn:hover{ cursor: pointer; border: 2px solid gray; }
+
+.BoookList:hover{ font-weight: bold;}
+
+#ser{
+    margin-left: 40px;
+}
+.BookContent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px; 
+   
+}
+.BookContent {font-size: 15px;}
+.BookContent h1{ font-size: 18px;}
+
+.addListBtn{ 
+    width:150px;
+    height: 25px;
+    background-color: #80E12A; 
+    text-align: center; 
+    border-radius: 3px;
+    
+}
+
+.addListBtn:hover{
+    cursor: pointer;
+}
+img{ width: 150px; }
